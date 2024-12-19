@@ -1,0 +1,66 @@
+/* 공통 스타일 */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+/* 헤더 스타일 */
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* 메인 콘텐츠 스타일 */
+main {
+    margin: 20px auto;
+    max-width: 900px;
+}
+
+.video-container {
+    border: 4px solid #007BFF;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 20px auto;
+    max-width: 100%;
+    height: 500px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.video-container img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/* 경고 메시지 스타일 */
+.warning-message {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #D9534F; /* 붉은색 */
+    background-color: #FDECEC; /* 연한 붉은 배경 */
+    padding: 10px;
+    border: 2px solid #D9534F;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+/* 푸터 스타일 */
+footer {
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    font-size: 0.9rem;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}

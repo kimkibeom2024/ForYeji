@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>바른자세 360</title>
+    <!-- CSS 파일 연결 -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <!-- 헤더 -->
+    <header>
+        바른자세 360
+    </header>
+    <!-- 메인 콘텐츠 -->
+    <main>
+        <div class="video-container">
+            <img src="{{ url_for('video') }}" alt="Video Stream">
+        </div>
+        <div class="warning-message">
+            웹캠을 통해 자세를 실시간으로 감지합니다.
+        </div>
+    </main>
+    <!-- 푸터 -->
+    <footer>
+        © 2024 바른자세 360 - 부산일과학고등학교 매스컴 동아리
+    </footer>
+</body>
+</html>
